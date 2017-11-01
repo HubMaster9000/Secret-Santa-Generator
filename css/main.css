@@ -1,0 +1,48 @@
+html, body {
+   margin: 0;
+   padding: 0;
+   
+   
+}
+
+body {
+   font-family: Arial, serif;
+   background-color: lightgreen;
+   background-image: url('http://www.clipartlord.com/wp-content/uploads/2012/12/santa6.png');
+   background-size: cover;
+   
+}
+
+
+h1{
+    font-family: "Georgia", serif;
+    color: Green;
+    text-shadow: 3px 2px red;
+    text-align: center;
+}
+
+nav{
+    outline: yellow dotted thick;
+    color: yellow;
+}
+
+p{
+    text-align: center;
+}
+
+#name{
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+#email{
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+h2{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+

@@ -1,0 +1,32 @@
+html, body {
+   margin: 0;
+   padding: 0;
+   
+}
+
+body {
+   font-family: Arial, serif;
+   background-color: LightGreen;
+   background-size: cover;
+   text-align: center;
+}
+
+
+h1{
+    color: red;
+    text-shadow: 3px 2px green;
+}
+
+nav{
+    outline: yellow dotted thick;
+    color: yellow;
+}
+
+#main{
+    align-items: center;
+}
+
+ol {
+    display:table; margin:0 auto;
+    text-align: left;
+}
