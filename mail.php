@@ -1,7 +1,7 @@
 <?php
 
     $data = json_decode($_POST["players"]);
-    
+
     //include PHPMailerAutoload.php
     require 'phpmailer/PHPMailerAutoload.php';
 
@@ -34,18 +34,16 @@
 
     //set who is sending an email
     $mail->setFrom('secretsantanamegenerator@gmail.com', 'Secret Santa');
-    
+
     foreach($data as $playerObject){
       $mail->addAddress($playerObject->email);
       $mail->Subject = "Secret Santa";
       $mail->Body = "Your secret santa target is: " + $playerObject-> secretSanta;
-              
+
       $mail->send();
-      
+
     }
-    
-    
+
+
 
 ?>
-
-
